@@ -374,3 +374,11 @@ ul{
     opacity: 0.7;
     padding: 20px 0px 20px 0px;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.baten{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.676);
+}

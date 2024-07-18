@@ -39,6 +39,10 @@
     }
 
 }
+.side-icon-img{
+    width: 30px;
+    height: 30px;
+}
 .odin{
     Font-size: 30px;
     Font-weight: 600;

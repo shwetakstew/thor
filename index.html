@@ -12,7 +12,7 @@
       </style>
       
 
-    <title>odin11111111111112222222222244444444444444444444444</title>
+    <title>odin</title>
   </head>
   <body>
     <div class="container">
@@ -33,36 +33,36 @@
                 <form class="d-flex">
                   <ul class="nav justify-content-end    nav-container align-items-center   ">
                       <li class="nav-item  nav-txt">
-                        <a class=" active link-secondary   text-wrap   nav-sub-text" aria-current="page" href="#">All Paths</a>
+                        <a class=" active link-secondary   text-wrap   nav-sub-text" aria-current="page" href="./allpath.html">All Paths</a>
                       </li>
                       <li class="nav-item nav-txt">
-                        <a class=" link-secondary   text-wrap nav-sub-text" href="#">About</a>
+                        <a class=" link-secondary   text-wrap nav-sub-text" href="./about.html">About</a>
                       </li>
                       <li class="nav-item nav-txt">
                         <a class=" link-secondary  text-wrap  nav-sub-text" href="#">Community</a>
                       </li>
                       <li class="nav-item nav-txt">
-                        <a class=" link-secondary  text-wrap  nav-sub-text" href="#" tabindex="-1" aria-disabled="true">Support us
+                        <a class=" link-secondary  text-wrap  nav-sub-text" href="#" >Support us
                         </a>
                       </li>
                       <li class="nav-item nav-txt">
-                        <a class=" link-secondary   text-wrap nav-sub-text" href="#" tabindex="-1" aria-disabled="true">
+                        <a class=" link-secondary   text-wrap nav-sub-text" href="./signin.html" >
                           Sign in
                         </a>
                       </li>
-                      <li class="brigth">
+                      <!-- <li class="brigth">
                         <img src="./images/icons8-bright-50.png" id="brigth" alt="">
-                      </li>
+
+                      </li> -->
+                      <button class="baten brigth" onclick="myFunction()"><img src="./images/icons8-bright-50.png" id="brigth" alt=""></button>
                       <button class="btn btn-outline-success bttn link-light " type="submit">Get Started</button>
                       
                     </ul>
                     <a class="btn menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                       <div class=""><img src="./images/icons8-menu-50.png" alt="" id="brigth"  >
+                        
                     </a>
-                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                      Button with data-bs-target
-                    </button> -->
-                    
+                  
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                       <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
@@ -126,7 +126,7 @@
                     </div>
                  
                 </form>
-            </div>
+            <!-- </div> -->
       </nav>
     </div>
     <div class="container">
@@ -146,7 +146,7 @@
         </div>
       </div>
       <div class="text-center pt-5 ">
-        <button class="bttn-2"> <a href="" class="link-dark curriculam"> View Full Curriculum</a></button>
+        <button class="bttn-2"> <a href="./allpath.html" class="link-dark curriculam"> View Full Curriculum</a></button>
       </div>
     </div>
     <div class="pt-3"><img src="./images/first-image.svg " alt=""></div>
@@ -193,9 +193,9 @@
       </div>
     </div>
 
-    <div class="pt-5">
-      <div class="bg-light third-container">
-        <div class="container  ">
+    <div class="pt-5" onclick="myFunction()">
+      <div  class="bg-light third-container"onclick="myFunction()">
+        <div class="container" >
           <div class="third-container-text text-center fs-2 pt-5">
             Learn everything you need to know
           </div>
@@ -323,11 +323,11 @@
     </div>
 
 
-    <div class="background-gradient">
-      <div class="container">
+    <div  onclick="myFunction()" class="background-gradient">
+      <div  onclick="myFunction()" class="container">
         <div class="text-center fs-2 pt-5">Success Stories</div>
-        <div class="stories">
-          <div  class="p-3 d-flex justify-content-center align-self-center">
+        <div  onclick="myFunction()" class="stories">
+          <div  class="p-3 d-flex justify-content-center align-self-center"  onclick="myFunction()">
             <div class="p-4"><img src="./images/1.jpg" class="img" alt=""></div>
             <div>
               <div><a href="" class="link-dark  text-decoration-underline">Rob Pando</a></div>
@@ -444,6 +444,13 @@
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      function myFunction() {
+         var element = document.body;
+        //  var element = document.third-container;
+         element.classList.toggle("dark-mode");
+      }
+      </script>
 
     
   </body>
