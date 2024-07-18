@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-text,.odin-text{
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-item:hover{
+    border-bottom: 1px solid grey;
+}
+.get-background{
+    background-color: rgb(15,118,110);
+    color: white;
+}
+.menu{
+    display: none;
+}
+@media only screen and (max-width: 1025px){
+    .logo-text{
+        display: none;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .nav-item,.hide{
+        display: none;
+    }
+    .work{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    .menu{
+        display: block;
+    }
+
+}
+.odin{
+    Font-size: 30px;
+    Font-weight: 600;
+    Line-height: 36px;
+}
+.learn{
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 28px;
+    text-align: justify;
+}
+.expect{
+    font-size: 25px;
+}
+.free{
+    font-size: 16px;
+    color: rgb(75, 85, 99);
+    text-align: justify;
+}
+.developer{
+   color: rgb(75,85,99);
+   font-size: 18px;
+   text-align: justify;
+}
+.main{
+    background-color: rgb(249,250,251);
+}
+.glad{
+    background-color: rgb(243,244,246);
+}
+.odin-1{
+    Font-size: 24px;
+    Font-weight: 600;
+    Line-height: 32px;
+    color: rgb(75, 85, 99);
+}
+/* .sub{
+    width: 398px;
+} */
+ .sub-1{
+    display: flex;
+ }
+.line{
+    line-height: 30px;
+}
+.pro{
+    color: rgb(75,85,99);
+    font-size: 24px;
+    /* line-height: 32px; */
+}
+.contribute{
+    background-color: rgb(249,250,251);
+}
+.want{
+    Font-size: 24px;
+    Font-weight: 700;
+    Line-height: 32px;
+    color: rgb(75, 85, 99);
+}
+.connect{
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+}
+.back{
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 28px;
+}
+.our{
+    background-color: rgb(15,118,110);
+    color: white;
+}
+.pro-1{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+.odin{
+    opacity: 0.7;
+}
+.background-gradient{
+    background: linear-gradient(to bottom, #ffffff 0%, #f3f4f6 100%);
+}
+.last-logo{
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(31,41,55);
+}
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+h1,
+h1+p {
+	margin: 30px 15px 0;
+	font-weight: 300;
+}
+h1+p a {
+	color: #333;
+}
+h1+p a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin: 60px 15px 0;
+	padding: 0;
+	font-weight: 300;
+}
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+
+
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	float: left;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+.figure{
+    width: 30px;
+    height: 30px;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+ul{
+    list-style: none;
+}
+.last-se{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+@media only screen and (max-width: 1095px){
+    .last-se{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2);
+        row-gap: 20px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .last-se{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2);
+        row-gap: 20px;
+    }
+}
+.line{
+    border-bottom: 1px groove rgb(224, 224, 224);
+}
+.copy
+{
+    font-size: 12px;
+    opacity: 0.7;
+    padding: 20px 0px 20px 0px;
+}
+.two-img{
+    padding-bottom: 100px;
+}
+.bright{
+    opacity: 0.3;
+    
+}
+.bright:hover{
+    opacity: 1;
+}
